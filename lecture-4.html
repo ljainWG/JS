@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC HTML WITH JavaScript</title>
+    <script>
+
+        var message = "Hello";
+        let color = "Blue";
+        const planet = "Earth";
+
+        // JavaScript function to display a message
+        function displayMessage() {
+            const outputElement = document.getElementById('output-1');
+            outputElement.textContent = 'Hello, World! JavaScript is running.';
+        }
+        
+    </script>
+    <script src="lecture-4.js"></script>
+</head>
+
+<body>
+    <h1>Run JavaScript Example</h1>
+
+    <p id="output-1">This is where the result will appear (with internal JavaScript code).</p>
+    <button onclick="displayMessage()">Click Me</button>
+
+    <p id="output-2">This is where the result will appear (with external JavaScript file).</p>
+    <button onclick="welcomeUser()">Click Me</button>
+
+    
+</body>
+
+</html>
