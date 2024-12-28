@@ -1,0 +1,46 @@
+JS :
+- Started JavaScript
+- Execution Context and its functioning/ working
+- GEC and individual function's EC and their working
+- call stack
+- Hoisting and difference in hoisting for variables and functions
+- global and local variables
+
+
+- types of variables (let, const, var, automatically)
+- window object and its association with window
+- global and block scope and lexical environment and scope chaining
+- errors : reference, syntax, type
+- types of operators
+
+
+- datatypes
+- functions
+- objects in js
+- ways of declaring an object : object literals, with new keyword as new object(), constructor function with new keyword example new Person(params...)
+- prototype keyword and its association with object and object schema
+- how add fields and functions to individual object and all objects created by constructor function with and without default value
+- how to delete any property from object by using delete keyword
+- how to display properties of object : console.log(), concatenation of string literals as objectname.propertyname, looping, object.values(), object.entries(), JSON.Stringify()
+- nested objects
+- reference passing in objects
+- different nature of prototype properties with console.log() i.e., inherited properties cannot be printed by console.log()
+- JS build-in constructors : new object(), new Array(), new Map(), new Set(), new Date, new RegExp(), new Function()
+- Math(), Math is global object and used without new keyword
+
+
+- accuracy of number datatype is up to 15 decimals if it is without period(.) or not in exponentional representation
+- Template Strings
+- scope rule for functions
+- setTimeout() and how does it work
+- problems caused due to closure while using setTimeout() and reason behind it (closure)
+- resolving problems caused due to closure while using setTimeout() by using let due to block scope of let varibales
+- resolving problems caused due to closure while using setTimeout() by using var by adding one more function which creates new EC and all copies if a will be different in EC and will have different reference
+- block scope, shadowing, Illegal Shadowing, different ways of shadowing with the help of different scopes like global, script, block, functional and different EC
+- Closure, uses of closure, its advantages and disadvantages
+- relation of closure with scope chaining
+- conflicting of global scope variable in closure
+- invoking functions with closure
+- how closure works with different variables i.e., let, var and const,  it works same for let and const different from var
+- data hiding and encapsulation by closure and different ways to return single and multiple functions inside a single return statement by creating extra return function which is containing other function.
+- creation of different new objects which are inside the outer function by calling outer function and change in its behavior( variable/ object created from each outer function call creates a new copy which has nothing to do from previously created one and it is completely new)

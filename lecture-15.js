@@ -46,7 +46,11 @@
 // y();
 
 //oops it didn't work
-// because let was declared outside the function scope, to make it work let i should have functional scope to make the difference and standout alone or away this problem
+// because let was declared outside the function scope
+
+
+
+// to make it work let i should have functional scope to make the difference and standout alone or away this problem
 
 // function y(){
 //     for(let i= 1;i<=5;i++){
