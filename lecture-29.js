@@ -12,7 +12,14 @@ class User {
         this.address = address;
         this.role = role;
     }
+    getUsername() {
+        return this.username;
+    }
 }
+User.prototype.getRealname = function () {
+    return this.realname;
+};
+
 class Employee extends User {
     constructor(uuid, username, realname, password, email, dob, address, role, department) {
         super(uuid, username, realname, password, email, dob, address, role);
@@ -24,3 +31,7 @@ class Patient extends User {
         super(uuid, username, realname, password, email, dob, address, role);
     }
 }
+
+const lakshay = new User(123, "ljxx", "Lxxxxxx xxxx", "xxxxxxxx", "xxxx@gmail.com", "9999-12-31", "abcd", "xyz");
+console.log(lakshay.getUsername());
+console.log(lakshay.getRealname());
